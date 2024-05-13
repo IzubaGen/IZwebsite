@@ -1,0 +1,97 @@
+
+       .faq{
+            min-height: 70vh;
+            width: 100vw;
+            text-align: center;
+            padding: 0 2rem;
+            background: url(../images/banner/33.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .faq .row{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 2rem;
+        }
+        
+        .faq .row .accordion-container{
+            width: 50%;
+            text-align: left;
+        }
+
+        .faq .row .accordion{
+            margin-left: 1rem;
+            margin-right: 2rem;
+        }
+        
+        .faq .row .accordion-container .accordion .accordion-header{
+            background-color: #00bfff;
+            margin: 1rem 0;
+            box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
+            cursor: pointer;
+            margin-left: 1rem;
+            margin-right: 2rem;
+        }
+        
+        .faq .row .accordion-container .accordion .accordion-header span{
+            display: inline-block;
+            text-align: center;
+            height: 4rem;
+            width: 5rem;
+            line-height: 4rem;
+            font-size: 2rem;
+            background: #333;
+            color: #fff;
+            clip-path: polygon(0% 0%,75% 0%,100% 50%,75% 100%,0% 100%); 
+        }
+        
+        .faq .row .accordion-container .accordion .accordion-header h3{
+            display: inline;
+            color: #333;
+            font-weight: 400;
+            padding-left: .5rem;
+            font-size: 1.5rem;
+        }
+        
+        .faq .row .accordion-container .accordion .accordion-body{
+            padding: 1rem;
+            color: #444;
+            box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
+            background-color: #fff;
+            font-size: 1.3rem;
+            display: none;
+            margin-left: 1rem;
+            margin-right: 2rem;
+        }
+        
+@media (max-width: 1200px){
+    .faq{
+        min-height: 70vh;
+    }
+}        
+
+@media (max-width: 1000px){
+    html{
+        font-size: 50%;
+    }
+
+
+
+    
+
+        .faq{
+            padding: 0;
+            min-height: 60vh;
+        }
+    
+        .faq .row{
+            padding: 0 1.5rem;
+            flex-flow: column;
+        }
+    
+        .faq .row .accordion-container{
+            width: 100%;
+        }
+}
