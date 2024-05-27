@@ -594,7 +594,7 @@ margin: 0 8px;
   background: #133986;
   /* background: url('../images/img2.jpg'); */    
   background-size: cover;  };
-}
+
 #about .column-title{
 color:#fff;
 }
@@ -1058,4 +1058,39 @@ padding: 7px 0 0;
   font-size: 25px;
   cursor: pointer;
   margin: 0px 5px;
+}
+
+
+
+
+.message {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--gold-crayola);
+  color: var(--smoky-black-1);
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  border-radius: var(--radius-circle);
+  display: grid;
+  place-items: center;
+  box-shadow: var(--shadow-1);
+  transition: var(--transition-1);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 4;
+}
+
+
+
+.message.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.what{
+  width: 50px;
+  height: 50px;
 }
