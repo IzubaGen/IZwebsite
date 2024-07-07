@@ -1,6 +1,6 @@
 var form = document.getElementById("my-form")
 
-console.log(form)
+
 async function handleSubmit(event) {
   event.preventDefault();
   var status = document.getElementById("status");
