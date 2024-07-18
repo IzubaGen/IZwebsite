@@ -509,3 +509,31 @@
     axilInit.i();
 
 })(window, document, jQuery);
+ // Function to show warning message when someone tries to copy
+ function displayWarning() {
+    var warning = document.getElementById('copy-warning');
+    if (warning) {
+        warning.style.display = 'block';
+        setTimeout(function() {
+            warning.style.display = 'none';
+        }, 3000); // Hide the message after 3 seconds
+    }
+}
+
+// Disable right-click context menu
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
+
+// Disable keyboard shortcuts for developer tools
+document.onkeydown = function(e) {
+    if (
+        (e.ctrlKey && e.shiftKey && e.keyCode === 73) ||  // Ctrl+Shift+I
+        (e.ctrlKey && e.shiftKey && e.keyCode === 67)    // Ctrl+Shift+C
+    ) {
+        displayWarning();
+        return false;
+    } else {
+        return true;
+    }
+};
