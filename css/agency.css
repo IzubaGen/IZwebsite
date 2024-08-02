@@ -114,13 +114,19 @@
 
 .portfolio-modal .close-modal {
     position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    cursor: pointer;
+    top: 80px;
+    right: 1px;
+    width: 70px; /* Adjust the width to make it smaller */
+    height: 40px; /* Adjust the height to make it smaller */
+    background-color: #105CD6;
+    border: none; /* Remove default border */
+    border-radius: 15px; /* Makes the button circular */
+    padding: 0px; /* Space inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
 }
+
 
 .portfolio-modal .close-modal:hover {
     opacity: .3;
@@ -129,9 +135,9 @@
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 35px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: white;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -140,8 +146,8 @@
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
-    height: 75px;
-    background-color: #222;
+    height: 35px;
+    background-color: white;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
