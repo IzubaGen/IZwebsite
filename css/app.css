@@ -54,11 +54,19 @@ STYLESHEET INDEXING
 =========================================================================*/
 /*-------------------------
     Variables
--------------------------*/
+------------------------   -*/
+
+
+#picture{
+    border-radius: 20%;
+    border:10px solid #669264;
+}
 @import url("../css2");
 
 :root {
-    --color-primary: #105cd6;
+   --background-image:/;
+    --color-primary: #669264;
+    /* --color-white:var(--background-image); */
     --color-white: #ffffff;
     --color-black: #000000;
     --color-light: #ECF2F6;
@@ -799,7 +807,7 @@ input {
 }
 
 .breadcrumb-banner .section-heading .title {
-    color: #000248;
+    color: #669264;
     width: 55%;
     margin-bottom: 40px;
 }
@@ -5456,7 +5464,7 @@ Pagination
 }
 
 .followers-list li a span {
-    color: #000248;
+    color: #669264;
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
@@ -9336,7 +9344,7 @@ body.op-modal-open {
     --dark-main-body: #212121;
     --dark-bg-color: var(--color-dark);
     --dark-body-text: #D3D3D4;
-    --dark-title-light: #D3D3D4;
+    --dark-title-light:#669264;
     --dark-solid-btn: var(--color-ghost);
     --dark-border-gray: var(--color-body);
 }
