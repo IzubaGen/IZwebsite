@@ -44,5 +44,4 @@ document.querySelectorAll('.close-modal, .btn-primary').forEach(button => {
         const modal = this.closest('.portfolio-modal');
         modal.classList.remove('modal-open');
         document.body.style.overflow = 'auto'; // Restore scrolling on the main page
-    });
-});
+    

@@ -10694,3 +10694,35 @@ body.op-modal-open {
     font-size: 20px;
     font-weight: bold;
 }
+
+/* Style for the brand grid container */
+.brand-grid {
+    display: flex;
+    justify-content: center; /* Center logos horizontally */
+    align-items: center; /* Center logos vertically */
+    padding: 15px; /* Add some padding around each logo */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Optional: Add a subtle border */
+    background-color: rgba(255, 255, 255, 0.05); /* Optional: Add a light background */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for brand grid */
+.brand-grid:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+/* Style for the logo images */
+.brand-grid img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+    width: 120px; /* Set a fixed width for all logos */
+    filter: grayscale(100%); /* Optional: Make logos grayscale by default */
+    transition: filter 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for logo images */
+.brand-grid:hover img {
+    filter: grayscale(0%); /* Remove grayscale on hover */
+}
