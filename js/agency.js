@@ -23,4 +23,26 @@ $('body').scrollspy({
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
+
+    
+
+
+    // Open Modal
+document.querySelectorAll('.portfolio-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const modalId = this.getAttribute('href');
+        const modal = document.querySelector(modalId);
+        modal.classList.add('modal-open');
+        document.body.style.overflow = 'hidden'; // Prevent scrolling on the main page
+    });
+});
+
+// Close Modal
+document.querySelectorAll('.close-modal, .btn-primary').forEach(button => {
+    button.addEventListener('click', function () {
+        const modal = this.closest('.portfolio-modal');
+        modal.classList.remove('modal-open');
+        document.body.style.overflow = 'auto'; // Restore scrolling on the main page
+    });
 });
