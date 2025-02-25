@@ -1,0 +1,11 @@
+{
+    "rewrites": [
+      { "source": "/", "destination": "/index.html" },
+      { "source": "/about", "destination": "/about-us.html" },
+      { "source": "/portfolio", "destination": "/portfolio-2.html" },
+      { "source": "/contact", "destination": "/contact.html" },
+      { "source": "/price", "destination": "/pricing-table.html" },
+      { "source": "/service", "destination": "/service.html" }
+    ]
+  }
+  
