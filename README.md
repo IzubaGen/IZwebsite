@@ -1,23 +1,36 @@
-# IzubaGen - Website & App Development Company in Rwanda 🌍🚀
+# IzubaGen Digital Solutions
 
-Welcome to the **IzubaGen** official website repository!  
-We are a leading **website and software development company** in Rwanda, helping businesses establish a strong online presence with modern, high-performance web solutions.
+**Elevate your brand with custom websites and applications.**
 
-## 🌟 About IzubaGen
-At **IzubaGen**, we specialize in:
-- 🌐 **Website Development** – Business websites, eCommerce stores, and custom web solutions.
-- 📱 **Mobile App Development** – Android and iOS applications tailored to your needs.
-- 🛒 **eCommerce Solutions** – Scalable online stores with secure payment integration.
-- 🚀 **SEO & Digital Marketing** – Helping businesses rank higher on search engines.
-- 🖥️ **Custom Software Development** – Solutions for businesses looking to automate processes.
+## Features
+- 🚀 Custom Web & Mobile Development
+- 🎨 Branding & Graphic Design
+- 📈 SEO & Digital Marketing
 
-## 🔗 Live Website
-🌍 **Visit IzubaGen:** [www.izubagen.rw](https://www.izubagen.rw)
+## Installation
+```bash
+git clone https://github.com/yourusername/izubagen.git
+cd izubagen
+npm install
+```
 
-## 🚀 Features of Our Website
-✅ **Fast & Responsive** – Optimized for speed and mobile-friendly.  
-✅ **SEO-Optimized** – Structured for better search engine rankings.  
-✅ **Modern UI/UX** – Clean, professional, and easy-to-use design.  
-✅ **Secure & Scalable** – Built with the latest technologies.  
+## Usage
+```bash
+npm start
+```
+Visit `http://localhost:3000` in your browser.
 
-## 📂 Project Structure
+## Contributing
+1. Fork the repository
+2. Create a branch: `git checkout -b feature/YourFeature`
+3. Commit changes: `git commit -m 'Add YourFeature'`
+4. Push to branch: `git push origin feature/YourFeature`
+5. Open a pull request
+
+## License
+MIT License
+
+## Contact
+📧 [info@izubagen.rw](mailto:info@izubagen.rw)  
+🌍 [www.izubagen.rw](https://www.izubagen.rw)  
+📞 +250 123 456 789

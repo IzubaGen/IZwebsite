@@ -1,0 +1,18 @@
+/* AUTHOR INFO */
+    Company:IzubaGen 
+    Website: https://izubagen.rw
+    Email: hello@izubagen.rw
+    Contact: +256-394813366
+    From: Kigali , Rwanda
+
+    Team Leader: Mutebi Felix Mukisa
+    Email: felix@izubagen.rw
+    Contact: +256-759699971
+    From: Kigali , Rwanda
+
+
+/* SITE */
+	Doctype: HTML5
+	Language: English
+    Font: Rubik, Sans serif
+	Last Update Year: 2024
